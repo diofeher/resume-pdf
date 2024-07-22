@@ -11,11 +11,15 @@ await render(resume, theme);
 const browser = await puppeteer.launch();
 const page = await browser.newPage();
 
-var server = createServer({});
+var server = createServer({
+    before: () => console.log("Got request!"),
+});
 
-server.listen("8080", "localhost", function () {});
+server.listen("8080", "localhost", function () {
+    console.log("listening 8080");
+});
 
-await page.goto("http://localhost:8080/resume.html", { waitUntil: 'networkidle0' })
+await page.goto("//localhost:8080/resume.html", { waitUntil: 'networkidle0' })
 await page.pdf({ path: 'resume.pdf', format: 'a4', printBackground: true })
 await browser.close();
 server.close();
