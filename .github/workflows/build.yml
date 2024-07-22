@@ -19,7 +19,7 @@ jobs:
     - uses: actions/setup-node@v4
       with:
         node-version: 22
-    - run: node index.js
+    - run: npm run build
     - name: Publish Resumé PDF
       uses: actions/upload-artifact@v4
       with:
