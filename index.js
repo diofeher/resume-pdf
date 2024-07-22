@@ -13,7 +13,7 @@ const createHTML = async () => {
     await fs.writeFile("resume.html", rendered);
 }
 
-const createPDF = async () => {
+const createPDF = async (server) => {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.goto(`http://${HOST}:${PORT}/resume.html`, { waitUntil: 'networkidle0' })
@@ -26,7 +26,7 @@ const runServer = async () => {
     var server = createServer({});
     server.listen(PORT, HOST, function () {
         console.log(`listening ${PORT}`);
-        createPDF();
+        createPDF(server);
     });
 }
 
