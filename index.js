@@ -12,9 +12,13 @@ const browser = await puppeteer.launch();
 const page = await browser.newPage();
 
 const download = async () => {
-    await page.goto(`http://${HOST}/resume.html`, { waitUntil: 'networkidle0' })
+    console.log("downloading");
+    await page.goto(`http://${HOST}:${PORT}/resume.html`, { waitUntil: 'networkidle0' })
+    console.log("go to the page");
     await page.pdf({ path: 'resume.pdf', format: 'a4', printBackground: true })
+    console.log("close the browser");
     await browser.close();
+    console.log("close the server");
     server.close();
 }
 
