@@ -11,9 +11,7 @@ await render(resume, theme);
 const browser = await puppeteer.launch();
 const page = await browser.newPage();
 
-var server = createServer({
-    before: () => console.log("Got request!"),
-});
+var server = createServer({});
 
 server.listen("8080", "localhost", function () {
     console.log("listening 8080");
