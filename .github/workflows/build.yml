@@ -9,9 +9,8 @@ on:
       - resume.json
 
 jobs:
-  terraform-plan:
-    name: 'Terraform Plan'
-    runs-on: node:22
+  build-resume:
+    name: 'Build Resume'
 
     steps:
     - uses: actions/checkout@v4
