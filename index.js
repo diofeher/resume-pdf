@@ -13,11 +13,14 @@ const page = await browser.newPage();
 
 var server = createServer({});
 
-server.listen("8080", "localhost", function () {
+const HOST = "127.0.0.1";
+const PORT = 8080;
+
+server.listen(PORT, HOST, function () {
     console.log("listening 8080");
 });
 
-await page.goto("http://localhost:8080/resume.html", { waitUntil: 'networkidle0' })
+await page.goto(`http://${HOST}:${PORT}/resume.html`, { waitUntil: 'networkidle0' })
 await page.pdf({ path: 'resume.pdf', format: 'a4', printBackground: true })
 await browser.close();
 server.close();
