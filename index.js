@@ -13,9 +13,9 @@ const page = await browser.newPage();
 
 var server = createServer({});
 
-server.listen("3000", "localhost", function () {});
+server.listen("8080", "localhost", function () {});
 
-await page.goto("http://localhost:3000/resume.html", { waitUntil: 'networkidle0' })
+await page.goto("http://localhost:8080/resume.html", { waitUntil: 'networkidle0' })
 await page.pdf({ path: 'resume.pdf', format: 'a4', printBackground: true })
 await browser.close();
 server.close();
