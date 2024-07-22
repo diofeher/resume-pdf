@@ -23,10 +23,10 @@ const createPDF = async (server) => {
 }
 
 const runServer = async () => {
-    var server = createServer({});
-    server.listen(PORT, HOST, function () {
+    const server = createServer({});
+    server.listen(PORT, HOST, async () => {
         console.log(`listening ${PORT}`);
-        createPDF(server);
+        await createPDF(server);
     });
 }
 
