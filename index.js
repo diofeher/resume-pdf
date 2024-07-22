@@ -8,7 +8,7 @@ import { create } from 'domain';
 const resume = JSON.parse(await fs.readFile('resume.json', 'utf-8'));
 await render(resume, theme);
 
-const browser = await puppeteer.launch({headless: false});
+const browser = await puppeteer.launch();
 const page = await browser.newPage();
 
 var server = createServer({});
