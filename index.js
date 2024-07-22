@@ -3,10 +3,10 @@ import * as theme from 'jsonresume-theme-elegant'
 import puppeteer from 'puppeteer'
 import { createServer } from 'http-server';
 import { render } from 'resumed'
-import { create } from 'domain';
 
 const resume = JSON.parse(await fs.readFile('resume.json', 'utf-8'));
-await render(resume, theme);
+const rendered = await render(resume, theme);
+await fs.writeFile("resume.html", rendered);
 
 const browser = await puppeteer.launch();
 const page = await browser.newPage();
