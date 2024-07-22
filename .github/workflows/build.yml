@@ -7,6 +7,7 @@ on:
     paths:
       - index.js
       - resume.json
+      - .github/**
 
 jobs:
   build-resume:
