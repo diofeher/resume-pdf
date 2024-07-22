@@ -14,7 +14,7 @@ const createHTML = async () => {
 }
 
 const runServer = async () => {
-    var server = createServer({});
+    const server = await createServer({});
     server.listen(PORT, HOST, async () => {
         console.log(`listening ${PORT}`);
         await createPDF(server);
@@ -27,7 +27,7 @@ const createPDF = async (server) => {
     await page.goto(`http://${HOST}:${PORT}/resume.html`, { waitUntil: 'networkidle0' })
     await page.pdf({ path: 'resume.pdf', format: 'a4', printBackground: true })
     await browser.close();
-    server.close();
+    if(server) server.close();
 }
 
 createHTML();
