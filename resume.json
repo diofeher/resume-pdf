@@ -1,0 +1,372 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+      "name": "Diógenes Fernandes",
+      "label": "Staff Platform Engineer | Computer Science MSc @ Georgia Tech",
+      "image": "https://media.licdn.com/dms/image/C5603AQH7Xa6zcOv2_Q/profile-displayphoto-shrink_800_800/0/1543371767946?e=1727308800&v=beta&t=s0dnMHPd_WpcLT5WegBsCUDy0_tjThgHlW43x37LJwE",
+      "email": "diofeher@gmail.com",
+      "phone": "",
+      "url": "http://blog.diofeher.net",
+      "summary": "As a Staff Engineer, I leverage my 14+ years of remote work experience and my MSc in Computing Systems from Georgia Tech to create and secure products and infrastructure that enable scalable and robust systems.\n\nMy passion for web security and cloud engineering drives me to constantly learn and apply new technologies and best practices to solve complex and challenging problems. I hold multiple certifications from cloud providers and open source tooling, and I participate in online CTF competitions as a player for FireShell Security Team, where I hone my skills in web exploitation, cryptography, reverse engineering, and programming.",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "Joao Pessoa",
+        "countryCode": "BR",
+        "region": "PB"
+      },
+      "profiles": [
+        {
+          "network": "Linkedin",
+          "username": "diofeher",
+          "url": "https://linkedin.com/in/diofeher"
+        },
+        {
+          "network": "Blog",
+          "username": "diofeher",
+          "url": "https://blog.diofeher.net/"
+        },
+        {
+          "network": "Twitter",
+          "username": "diofeher",
+          "url": "https://twitter.com/diofeher"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Retailogists",
+        "position": "Staff Platform Engineer",
+        "startDate": "2023-10-31",
+        "endDate": "",
+        "highlights": [],
+        "summary": "Infrastructure and Cloud for a data pipeline based in cloud native (AWS) technologies\n\n- Terraform as IaC tooling\n- Bitbucket CI/CD pipelines\n- Python for Lambda and AWS Glue scripts",
+        "url": "https://www.linkedin.com/company/retailogists/",
+        "location": "Toronto, Ontario, Canada"
+      },
+      {
+        "name": "FireShell Security Team",
+        "position": "CTF Player",
+        "startDate": "2018-02-28",
+        "endDate": "",
+        "highlights": [],
+        "summary": "- Participating in online hacking championships, solving problems related to different categories, like and not limited to: web exploitation, cryptography, reverse engineering and programming.",
+        "url": "https://www.linkedin.com/company/fireshell-security-team/",
+        "location": "Brazil"
+      },
+      {
+        "name": "Flexport",
+        "position": "Senior Platform Engineer (through Shopify Logistics' acquisition)",
+        "startDate": "2023-06-30",
+        "endDate": "2023-10-31",
+        "highlights": [],
+        "summary": "https://www.flexport.com/blog/dave-clarks-note-to-flexport-were-acquiring-shopify-logistics/",
+        "url": "https://www.linkedin.com/company/flexport/"
+      },
+      {
+        "name": "Shopify",
+        "position": "Senior Platform Engineer (through Deliverr's acquisition)",
+        "startDate": "2022-07-31",
+        "endDate": "2023-06-30",
+        "highlights": [],
+        "url": "https://www.linkedin.com/company/shopify/"
+      },
+      {
+        "name": "Deliverr Inc.",
+        "position": "Senior Platform Engineer",
+        "startDate": "2021-05-31",
+        "endDate": "2022-07-31",
+        "highlights": [],
+        "summary": "- AWS Security and Infrastructure management;\n- Architected a security solution for our GitHub repositories based on AWS Lambda and integration with Github events;\n- Terraform adoption and maintenance;\n- Leader of the effort to get the ISO27001 Compliance;\n- Responsible for the CI/CD pipelines (CircleCI and shell scripting), maintaining a shared library used by all the repositories of the company;\n- Maintenance and implementation corporate authentication solutions on Okta;",
+        "url": "https://www.linkedin.com/company/deliverr-inc/",
+        "location": "San Francisco, California, United States"
+      },
+      {
+        "name": "MessageBird",
+        "position": "Security Engineer",
+        "startDate": "2020-05-31",
+        "endDate": "2021-04-30",
+        "highlights": [],
+        "summary": "- Security CI/CD pipelines\n- Incident Response\n- Internal pentesting\n- Vulnerability management\n- Automation and scripting",
+        "url": "https://www.linkedin.com/company/birdhq/",
+        "location": "Amsterdam, North Holland, Netherlands"
+      },
+      {
+        "name": "expertlead",
+        "position": "Senior Software Engineer",
+        "startDate": "2019-01-31",
+        "endDate": "2020-05-31",
+        "highlights": [],
+        "summary": "- Interviewing freelancers that want to join ExpertLead's network;\n- Working with gRPC, Microservices and Kubernetes;\n- Working as Sr. Software Engineer implementing features through different products. Using GoLang and TypeScript/Javascript (React).",
+        "url": "https://www.linkedin.com/company/expertlead_berlin/",
+        "location": "Berlin Area, Germany"
+      },
+      {
+        "name": "channel(H), Inc.",
+        "position": "Lead Software Engineer",
+        "startDate": "2016-06-30",
+        "endDate": "2018-09-30",
+        "highlights": [],
+        "summary": "Led a team of four developers to build a Ruby On Rails application parsing healthcare data from different providers and providing business intelligence and better workflows to clients.",
+        "url": "https://www.linkedin.com/company/channel-h-inc-/",
+        "location": "Greater Boston Area"
+      },
+      {
+        "name": "StreetBarz",
+        "position": "Founder",
+        "startDate": "2014-09-30",
+        "endDate": "2016-02-28",
+        "highlights": [],
+        "summary": "Building a street workout application on Android and iOS. It had a Django backend responsible for connecting both apps. I've made all the technical infrastructure, both apps were PhoneGap but later they were converted to native applications. It had 65k users when we decided to close the project.",
+        "url": "https://www.linkedin.com/company/streetbarz/",
+        "location": "João Pessoa Area, Brazil"
+      },
+      {
+        "name": "crowdSPRING",
+        "position": "Full-Stack Developer",
+        "startDate": "2012-01-31",
+        "endDate": "2015-05-31",
+        "highlights": [],
+        "summary": "Joined the company as front-end engineer but slowly started to get backend tasks. Was responsible for many different systems inside the product, for maintaining and creating new features. Used Django and mostly jQuery in the front-end.",
+        "url": "https://www.linkedin.com/company/crowdspring/",
+        "location": "Greater Chicago Area"
+      },
+      {
+        "name": "MapThatPad",
+        "position": "Software Developer",
+        "startDate": "2011-05-31",
+        "endDate": "2011-11-30",
+        "highlights": [],
+        "summary": "Working with Django and Javascript to develop an application that helped people in their apartment search.",
+        "url": "",
+        "location": "Greater New York City Area"
+      },
+      {
+        "name": "Google",
+        "position": "Google Summer of Code Student 2011",
+        "startDate": "2011-05-31",
+        "endDate": "2011-08-31",
+        "highlights": [],
+        "summary": "Implementing new charts to Javascript Infovis Toolkit.\n\nMentor: Nicolas Garcia Belmonte",
+        "url": "https://www.linkedin.com/company/google/"
+      },
+      {
+        "name": "Google",
+        "position": "Google Summer of Code Student 2010",
+        "startDate": "2010-05-31",
+        "endDate": "2010-08-31",
+        "highlights": [],
+        "summary": "Refactored and developed template code to MoinMoin Wiki.\n\nMentors: Radomir Dopieralski and Thomas Waldmann",
+        "url": "https://www.linkedin.com/company/google/",
+        "location": "Germany"
+      },
+      {
+        "name": "Soda Virtual",
+        "position": "Software Engineer Intern",
+        "startDate": "2009-10-31",
+        "endDate": "2010-04-30",
+        "highlights": [],
+        "summary": "Developed websites and systems using PostgreSql, Mysql and SQLite, xHTML, CSS and Javascript, Python, Django and various Django applications.",
+        "url": "https://www.linkedin.com/company/soda-virtual/"
+      }
+    ],
+    "volunteer": [],
+    "education": [
+      {
+        "institution": "Georgia Tech",
+        "url": "https://www.gatech.edu/",
+        "area": "Computer Science",
+        "studyType": "Master",
+        "startDate": "2021-08-01",
+        "endDate": "2025-04-01",
+        "score": "4.0",
+        "courses": [
+            "Graduate Algorithms",
+          "CS008-01 - GPU Software and Hardware",
+          "Advanced Operating Systems",
+          "Software Analysis (Fuzzing, LLVM, etc)",
+          "Computer Networks",
+          "AI, Ethics and Society",
+          "Introduction to Information Security",
+          "Introduction to Analytics Modeling",
+          "Graduate Introduction to Operating Systems",
+          "Network Security"
+        ]
+      },
+      {
+        "institution": "IFPB",
+        "url": "https://www.ifpb.edu.br/",
+        "area": "Internet Systems",
+        "studyType": "Bachelor",
+        "startDate": "2008-01-20",
+        "endDate": "2010-12-01",
+        "score": "4.0",
+        "courses": [
+          "Java",
+          "Object-Oriented Programming"
+        ]
+      },
+      {
+        "institution": "Centro de Inovação VincIT - UNICIV",
+        "area": "Computer and Information Systems Security/Information Assurance",
+        "studyType": "Ethical Hacking and CyberSecurity",
+        "startDate": "2019-01-31",
+        "endDate": "2020-12-31",
+        "score": "",
+        "courses": []
+      },
+      {
+        "institution": "Estácio",
+        "area": "Mobile, c++, iOs, Android, Bada",
+        "studyType": "Mobile Engineering Specialization",
+        "startDate": "2011-01-31",
+        "endDate": "2012-12-31",
+        "score": "",
+        "courses": []
+      }
+    ],
+    "awards": [
+      {
+        "title": "Best Integration between Ethereum and Storj.IO",
+        "date": "2014-11-01",
+        "awarder": "ETHWaterloo",
+        "summary": ""
+      }
+    ],
+    "certificates": [
+      {
+        "name": "Penetration Tester Desec Security",
+        "issuer": "Desec Security",
+        "endDate": "2022-01-31",
+        "startDate": "2020-08-31",
+        "url": "https://desecsecurity.com/academy/pentest-profissional/certificacao/cb1b21ed8faea0ef0030ab380e636476"
+      },
+      {
+        "name": "Associate Cloud Engineer",
+        "issuer": "Google",
+        "endDate": "2026-09-30",
+        "startDate": "2020-09-30",
+        "url": "https://www.credential.net/profile/digenesaugustohermnio847162/wallet#gs.hkjg2s"
+      },
+      {
+        "name": "Professional Cloud Security Engineer",
+        "issuer": "Google",
+        "endDate": "2023-03-31",
+        "startDate": "2021-03-31",
+        "url": "https://www.credential.net/3aab96d2-2cc4-4841-a7ef-57f43774e6cb#gs.upu8il"
+      },
+      {
+        "name": "HashiCorp Certified: Terraform Associate",
+        "issuer": "HashiCorp",
+        "endDate": "2023-03-31",
+        "startDate": "2021-03-31",
+        "url": "https://www.youracclaim.com/badges/8c7b068a-bb56-4d6e-aa84-724364df54a6?source=linked_in_profile"
+      },
+      {
+        "name": "HashiCorp Certified: Vault Associate",
+        "issuer": "HashiCorp",
+        "endDate": "2023-04-30",
+        "startDate": "2021-04-30",
+        "url": "https://www.credly.com/badges/12cb6b66-d53d-46de-ba5b-b5bd2a85cdf3?source=linked_in_profile"
+      },
+      {
+        "name": "AWS Certified Security – Specialty",
+        "issuer": "Amazon Web Services (AWS)",
+        "endDate": "2024-05-31",
+        "startDate": "2021-05-31",
+        "url": "https://www.credly.com/badges/8254bb74-cd60-4ff7-baf2-24a9e5cc9e3e?source=linked_in_profile"
+      },
+      {
+        "name": "CKA: Certified Kubernetes Administrator",
+        "issuer": "The Linux Foundation",
+        "endDate": "2025-04-30",
+        "startDate": "2022-04-30",
+        "url": "https://www.credly.com/badges/2d488479-1ad4-4b82-8df8-f29c28bfd0a4?source=linked_in_profile"
+      },
+      {
+        "name": "CKS: Certified Kubernetes Security Specialist",
+        "issuer": "The Linux Foundation",
+        "endDate": "2025-05-31",
+        "startDate": "2022-04-30",
+        "url": "https://www.credly.com/badges/50907dbb-7314-4155-b1cb-aef962ec2e49?source=linked_in_profile"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Web Development",
+        "level": "Master",
+        "keywords": [
+          "Flask",
+          "Django",
+          "Rails",
+          "Express",
+          "Go",
+          "React"
+        ]
+      },
+      {
+        "name": "Cloud",
+        "level": "Advanced",
+        "keywords": [
+          "AWS",
+          "GCP",
+          "Kubernetes",
+          "DigitalOcean"
+        ]
+      },
+      {
+        "name": "CI/CD",
+        "level": "Advanced",
+        "keywords": [
+          "Gitlab",
+          "Github Actions",
+          "Bitbucket Pipelines",
+          "CircleCI"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "fluency": "Advanced speaker"
+      },
+      {
+        "language": "Portuguese",
+        "fluency": "Native speaker"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Music",
+        "keywords": [
+          "Ocarina",
+          "Keyboard",
+          "Piano"
+        ]
+      }
+    ],
+    "references": [
+      {
+        "name": "Igor Portela",
+        "reference": "I've known Diogenes since 2008, he was certainly one of the highlights of the college, one of the first to get a good job and set an example for many people. He is a natural leader, with irrefutable technical skills, Dynamic and easily adaptable to any environment, whatever path he wants to follow in his career, I'm sure he will do it with a lot of focus, discipline and persistence. From Dev to DevSec or DevSecOps, or whatever, I trust his work."
+      },
+      {
+        "name": "Manoel de A. L. Amaro",
+        "reference": "I know Diógenes Fernandes for more than 9 years, since we studied together at the college. Since then showing himself a great developer, with strong skills, great logic thinking to solve any kind of problem and major knowledge of the newest technologies available, Diogenes is one of the best developers/software engineers I know. When we worked together, he also showed great leadership skills managing a remote team with people around the world, leading us to solve all problems easily and making the team delivery all results with quality. I am very happy to recommend him to any company, confident that he will always give his best, working together with the team and help everyone who needs to archive all company's goals."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Spacedrums",
+        "startDate": "2013-08-31",
+        "summary": null,
+        "url": "http://www.diofeher.net/spacedrum/"
+      }
+    ],
+    "meta": {
+      "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+      "version": "v1.0.0",
+      "theme": "jsonresume-theme-elegant",
+      "lastModified": "2017-12-24T15:53:00"
+    }
+  }

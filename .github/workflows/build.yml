@@ -1,0 +1,26 @@
+name: 'Build Resume'
+
+on:
+  push:
+    branches:
+    - main
+    paths:
+      - index.js
+      - resume.json
+
+jobs:
+  terraform-plan:
+    name: 'Terraform Plan'
+    runs-on: node:22
+
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 22
+    - run: node index.js
+    - name: Publish Resumé PDF
+      uses: actions/upload-artifact@v4
+      with:
+        name: resume.pdf
+        path: resume.pdf

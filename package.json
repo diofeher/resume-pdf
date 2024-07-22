@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "jsonresume-theme-elegant": "^1.16.1",
+    "puppeteer": "^22.13.1",
+    "resumed": "^3.0.1"
+  },
+  "scripts": {
+    "build": "node index.js"
+  }
+}
