@@ -26,7 +26,7 @@ const runServer = async () => {
     var server = createServer({});
     server.listen(PORT, HOST, function () {
         console.log(`listening ${PORT}`);
-        download();
+        createPDF();
     });
 }
 
